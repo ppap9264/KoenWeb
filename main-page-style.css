@@ -1,9 +1,16 @@
 /* style.css */
+body {
+    background-image: url('path_to_your_image.jpg'); /* Replace 'path_to_your_image.jpg' with the actual image path or URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #banner {
     background-color: #3498db;
     color: #fff;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 #menu {
@@ -22,13 +29,11 @@
     color: #333;
 }
 
-#content {
-    padding: 20px;
+#menu li a:hover {
+    text-decoration: underline;
+    color: grey;
 }
 
-body {
-    background-image: url(https://images.hdqwalls.com/wallpapers/autumn-path-of-forest-drone-view-5r.jpg); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+#content {
+    padding: 20px;
 }
