@@ -3,7 +3,7 @@
     background-color: #3498db;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 #menu {
@@ -24,4 +24,11 @@
 
 #content {
     padding: 20px;
+}
+
+body {
+    background-image: url(https://images.hdqwalls.com/wallpapers/autumn-path-of-forest-drone-view-5r.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
