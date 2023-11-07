@@ -1,12 +1,61 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="main-page-style.css">
+    <meta charset="UTF-8">
+    <title>KoenWeb</title>
+    <link rel="stylesheet" type="text/css" href="main-page-style.css">
 </head>
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
+    <div id="banner">
+        <h1>KoenWeb</h1>
+    </div>
+    
+    <nav>
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    
+    <div id="content">
+        <p>Replace with description.</p>
+    </div>
+    
+    <p>For the style, please create a separate CSS file named "style.css" and link it in the head section of your HTML file as shown above. You can define your styles in that CSS file.</p>
 </body>
-</html> 
+</html>
+
+To style this HTML, create a "style.css" file and add your CSS rules there. For example, you can style the banner, menu, and paragraph like this:
+
+css
+
+/* style.css */
+#banner {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#content {
+    padding: 20px;
+}
+
+This CSS file will style the banner, menu, and paragraph as per your request. You can further customize the styles to suit your preferences.
